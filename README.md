@@ -4,7 +4,8 @@
 This is a shell written in C that supports the following:
 - Constant loop
 - Simple command (e.g. ls)
-- More complex commands (e.g. (sudo) apt-get update or pkgin update) Pipe (e.g. echo 123 | grep 1)
+- More complex commands (e.g. (sudo) apt-get update or pkgin update) 
+- Pipe (e.g. echo 123 | grep 1)
 - File I/O redirection (e.g. echo 123 \> 1.txt)
 - File I/O redirection (e.g. echo 465 \>\> 1.txt)
 - File I/O redirection (e.g. cat < 1.txt)
