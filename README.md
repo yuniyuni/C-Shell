@@ -1,6 +1,6 @@
 # C-Shell
 
-## Introduction
+### Introduction
 This is a shell written in C that supports the following:
 - Constant loop
 - Simple command (e.g. ls)
@@ -23,7 +23,7 @@ This is a shell written in C that supports the following:
  > 3.txt
  ```
 
-## Future improve:
+### Future Work
 
 - Pipe composed with file I/O redirection (e.g. cat < 1.txt — sort -R > 2.txt) 
 - Change working directory using ../ ~/ ./ etc.
