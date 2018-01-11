@@ -1,7 +1,7 @@
 # C-Shell
 
+## Introduction
 This is a shell written in C that supports the following:
-
 - Constant loop
 - Simple command (e.g. ls)
 - More complex commands (e.g. (sudo) apt-get update or pkgin update) Pipe (e.g. echo 123 — grep 1)
@@ -12,9 +12,9 @@ This is a shell written in C that supports the following:
 - More complex commands with pipes (e.g. ls — xargs grep .txt)
 - Clean exit, no memory leak (e.g. Ctrl+d or exit)
 - Display the working directory (pwd command)
-- Wait for command to be completed when encountering > or | (e.g. echo abc >
-html &lt;input&gt;
-html &lt;input&gt; 3.txt)
+- Wait for command to be completed when encountering > or | (e.g. 'echo abc >
+>
+> 3.txt')
 - Handle quotes, regarding their content as a whole (e.g. echo ”def ghi jkl” | grep hi)
 - Catch errors (e.g. cat <)
 - Change working directory (e.g. cd /home) 
