@@ -13,8 +13,8 @@ This is a shell written in C that supports the following:
 - Clean exit, no memory leak (e.g. Ctrl+d or exit)
 - Display the working directory (pwd command)
 - Wait for command to be completed when encountering > or | (e.g. echo abc >
->
-> 3.txt)
+\>
+\> 3.txt)
 - Handle quotes, regarding their content as a whole (e.g. echo ”def ghi jkl” | grep hi)
 - Catch errors (e.g. cat <)
 - Change working directory (e.g. cd /home) 
